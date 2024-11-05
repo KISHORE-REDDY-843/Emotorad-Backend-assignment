@@ -1,5 +1,6 @@
 Project Overview
 This project implements a backend web service for Emotorad to consolidate contact information (emails and phone numbers) across multiple purchases. The service identifies primary and secondary contacts to avoid duplicate entries, using an SQLite database for data management.
+
 Prerequisites
 Ensure the following are installed on your machine:
 Node.js (v12 or higher)
