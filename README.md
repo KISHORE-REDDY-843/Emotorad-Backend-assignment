@@ -2,20 +2,37 @@ Project Overview
 This project implements a backend web service for Emotorad to consolidate contact information (emails and phone numbers) across multiple purchases. The service identifies primary and secondary contacts to avoid duplicate entries, using an SQLite database for data management.
 
 Prerequisites
+
+
 Ensure the following are installed on your machine:
+
+
 Node.js (v12 or higher)
+
 SQLite3
+
 1.Setup and Installation:
+
 git clone https://github.com/your-username/backend-task-emotorad.git
+
 cd backend-task-emotorad
+
 2.Install dependencies:
+
 Initialize Node.js:
+
 Run the following command to create a package.json file:
+
 npm init -y
+
 Install Express for building the web server and SQLite for database management:
+
 npm install express sqlite3
+
 Set Up Project Structure:
+
 Create a folder structure for the code:
+
 mkdir src
 cd src
 touch app.js db.js
